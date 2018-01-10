@@ -1,4 +1,4 @@
-/* Default Style */
+/* Default style */
 
 *{
   margin: 0px;
@@ -27,7 +27,7 @@ a:hover{
 
 /* End */
 
-/* Class Style*/
+/* Class style*/
 .white{
   color: white;
 }
@@ -53,7 +53,7 @@ a:hover{
 
 /* End */
 
-/* Nav and sidebar style*/
+/* Nav and sidenavbar style*/
 
 .navbar{
   height: 100%;
@@ -96,7 +96,7 @@ a:hover{
   width: 50%;
   background: white;
   box-shadow: 3px 0px 3px 0px;
-  color: #2196F3;
+  color: #FFB600;
   position: fixed;
   z-index: 100;
   min-width: 200px;
@@ -105,11 +105,11 @@ a:hover{
 .sidebarhidden-header{
   background: #212121;
   height: 62px;
-  border-bottom: 2px solid #757575;
+  border-bottom: 3px solid #757575;
 }
 
 .sidebarhidden-header button i{
-  color: white;
+  color: #DFDFDF;
 }
 
 .sidebarhidden ul{
@@ -123,9 +123,9 @@ a:hover{
 
 }
 
-/* End Navbar and Sidenav Styling */
+/* End*/
 
-/* Cart Sidenav Styling */
+/* Cart nav style*/
 .cart-sidenav{
   display: none;
   height: 100%;
@@ -133,14 +133,13 @@ a:hover{
   min-width: 400px;
   background: white;
   box-shadow: 3px 0px 3px 0px;
-  color: #2196F3;
+  color: #FFB600;
   position: fixed;
   z-index: 100;
-  min-width: 200px;
 }
 
 .datagrid-htable, .datagrid-btable{
-  width: 300px;
+  width: 290px;
 }
 
 .datagrid-body{
@@ -155,9 +154,9 @@ a:hover{
 #previous-cart table{
   margin: 0 auto;
 }
-/* End Cart Sidenav Styling */
+/* End*/
 
-/* Carousel Styling */
+/* Image style*/
 .image-carousel{
   height: 256px;
   background: url('../img/sliders/slider1.jpg');
@@ -179,11 +178,11 @@ a:hover{
   background: rgba(0,0,0,0.3);
 }
 
-/* End Carousel Styling */
+/* End */
 
-/* Main Styling */
+/* Main style*/
 
-  /* Main Nav Styling */
+  /* Main nav style*/
   #product-menu{
     margin-bottom: 20px;
   }
@@ -195,25 +194,25 @@ a:hover{
   #product-menu ul{
     width: 100%;
     padding: 20px;
-    background: #2196F3;
+    background: #FFB600;
   }
 
   .inline-menu li{
-    padding: 5px 20px 5px 20px;
+    padding: 5px 15px 5px 15px;
     display: inline;
-    background: #2196F3;
+    background: #FFB600;
   }
 
-  /* End Main Nav Styling*/
+  /* End*/
 
-  /* Product Holder Styling */
+  /* Product style*/
   #product-holder, #product-holder-products{
     width: 95%;
     margin-left: 2.5%;
   }
-  /* End Product Holder Styling */
+  /* End*/
 
-  /* Main Sidebar Styling */
+  /* Main sidebar style*/
   .product-sidebar{
     width: 45%;
     height: 500px;
@@ -239,9 +238,9 @@ a:hover{
     text-align: center;
   }
 
-  /* End Main Sidebar Styling */
+  /* End */
 
-  /* Main Description Styling */
+  /* Product description style*/
   .product-description{
     float: right;
     display: inline-block;
@@ -253,11 +252,11 @@ a:hover{
     background-size: cover;
   }
 
-  /* End Main Description Styling */
+  /* End */
 
-/* End Main Styling */
+/* End of main styles*/
 
-/* Product Page Styling */
+/* Product page style*/
 .products{
   display: flex;
   justify-content: center;
@@ -272,7 +271,7 @@ a:hover{
   max-width: 100px;
   height: auto;
   max-height: 100px;
-  border: 1px solid #2196F3;
+  border: 1px solid #FFB600;
 }
 
 .lam-off-center{
@@ -317,14 +316,14 @@ a:hover{
   background-position: center center !important;
   background-size: cover !important;
 }
-/* End Product Page Styling */
+/* End */
 
-/* Footer Styling */
+/* Footer style*/
 #page-footer{
   right: 0;
   bottom: 0;
   left: 0;
-  background: #2196F3;
+  background: #FFB600;
   height: 50px;
   width: 100%;
   display: flex;
@@ -333,23 +332,23 @@ a:hover{
 }
 
 #footer-inline-menu{
-  height: 24px;
+  height: 21px;
 }
 
 .icon-small{
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #footer-inline-menu li{
   display: inline;
-  padding: 0px 10px 0px 10px;
+  padding: 5px 15px 5px 15px;
 }
 
-/* End Footer Styling */
+/* End */
 
-/* Product Page */
+/* Product page item styles*/
 
-  /* Product Containers */
+  /* Container style*/
   .product-page-holder{
     justify-content: space-around;
   }
@@ -365,10 +364,10 @@ a:hover{
     height: 250px;
     justify-content: center;
   }
-  /* End Product Containers */
-/* End Product Page */
+  /* End */
+/* End product styles*/
 
-/* Demo Page */
+/* Demo page style*/
 
 #about-header{
   background: url('./../img/product-images/cars.jpg');
@@ -388,9 +387,9 @@ a:hover{
   height:300px;
 }
 
-/* End Demo Page */
+/* End */
 
-/* Iframes */
+/* Iframe style*/
 .iframe-holder{
   display: flex;
   justify-content: center;
@@ -400,15 +399,15 @@ a:hover{
 .info-holder, .iframe-holder{
   margin-bottom: 100px;
 }
-/* End Iframes */
+/* End*/
 
-/* Contact Times*/
+/* Contact time specific style for list*/
 #openings{
     margin: 0 auto;
 }
-/* Contact Times*/
+/* End*/
 
-/* Website Resizing */
+/* Website resizing for smaller devices with media queries*/
 @media screen and (max-width: 660px) {
     .inline-navbar-menu {
       display: none;
@@ -472,4 +471,4 @@ a:hover{
       display: none !important;
     }
 }
-/* End Website Resizing */
+/* End */
